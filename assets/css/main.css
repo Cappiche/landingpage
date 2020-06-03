@@ -764,7 +764,7 @@
 		}
 
 		#bg {
-			background-size: 1500px auto;
+			background-size: contain;
 			width: 4500px;
 		} }
 
@@ -862,6 +862,11 @@
 
 			body, input, select, textarea {
 				font-size: 11pt;
+			}
+
+			.logo {
+				max-width: 70%
+
 			}
 
 		/* BG */
